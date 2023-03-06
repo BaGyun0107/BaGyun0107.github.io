@@ -12,28 +12,26 @@ hide_last_modified: true
 **배포링크 :** <https://www.semicolon-nostanding.com>  
 **상세정보 :** <https://codestates.notion.site/7-semicolon-Nostanding-297a7ffb182f4d1b852847f2628e6c26>
 
-  <script>
-  $(document).ready(function () {
-    $(".slider").bxSlider({
-      auto: true,
-      speed: 500,
-      pause: 4000,
-      mode: "fade",
-      autoControls: true,
-      pager: true,
-    });
-  });
-  </script>
-
 <div class="slider" align="center">
     <div><img src= "/assets/img/nostanding/nostanding1.jpeg" style="width: auto; height: 400px;"></div>
-    <div><img src= "/assets/img/nostanding/nostanding2.png" style="width: auto; height: 400px;"><</div>
-    <div><img src= "/assets/img/nostanding/nostanding3.png" style="width: auto; height: 400px;"><</div>
-    <div><img src= "/assets/img/nostanding/nostanding4.png" style="width: auto; height: 400px;"><</div>
-    <div><img src= "/assets/img/nostanding/nostanding5.png" style="width: auto; height: 400px;"><</div>
-    <div><img src= "/assets/img/nostanding/nostanding6.png" style="width: auto; height: 400px;"><</div>
-    <div><img src= "/assets/img/nostanding/nostanding7.png" style="width: auto; height: 400px;"><</div>
+    <div><img src= "/assets/img/nostanding/nostanding2.png" style="width: auto; height: 400px;"></div>
+    <div><img src= "/assets/img/nostanding/nostanding3.png" style="width: auto; height: 400px;"></div>
+    <div><img src= "/assets/img/nostanding/nostanding4.png" style="width: auto; height: 400px;"></div>
+    <div><img src= "/assets/img/nostanding/nostanding5.png" style="width: auto; height: 400px;"></div>
+    <div><img src= "/assets/img/nostanding/nostanding6.png" style="width: auto; height: 400px;"></div>
+    <div><img src= "/assets/img/nostanding/nostanding7.png" style="width: auto; height: 400px;"></div>
 </div>
+
+<script>
+    $(document).ready(function(){
+      $('.slider').slick({
+        autoplay: true,
+        autoplaySpeed: 2500,
+        fade: true,
+        dots: true
+      });
+    });
+  </script>
 
 **Stack :** `JavaScript` `NodeJS` `Sequelize` `JWT` `Express` `MySQL` `Axios`
 

@@ -11,26 +11,24 @@ hide_last_modified: true
 **GitHub :** <https://github.com/codestates/Defat>  
 **배포링크 :** <https://www.semicolon-defat.com/>
 
- <script>
-  $(document).ready(function () {
-    $(".slider").bxSlider({
-      auto: true,
-      speed: 500,
-      pause: 4000,
-      mode: "fade",
-      autoControls: true,
-      pager: true,
-    });
-  });
-  </script>
-
 <div class="slider" align="center">
     <div><img src= "/assets/img/defat/defat1.png" style="width: auto; height: 400px;"></div>
-    <div><img src= "/assets/img/defat/defat2.png" style="width: auto; height: 400px;"><</div>
-    <div><img src= "/assets/img/defat/defat3.png" style="width: auto; height: 400px;"><</div>
-    <div><img src= "/assets/img/defat/defat4.png" style="width: auto; height: 400px;"><</div>
-    <div><img src= "/assets/img/defat/defat6.png" style="width: auto; height: 400px;"><</div>
+    <div><img src= "/assets/img/defat/defat2.png" style="width: auto; height: 400px;"></div>
+    <div><img src= "/assets/img/defat/defat3.png" style="width: auto; height: 400px;"></div>
+    <div><img src= "/assets/img/defat/defat4.png" style="width: auto; height: 400px;"></div>
+    <div><img src= "/assets/img/defat/defat6.png" style="width: auto; height: 400px;"></div>
 </div>
+
+<script>
+    $(document).ready(function(){
+      $('.slider').slick({
+        autoplay: true,
+        autoplaySpeed: 2500,
+        fade: true,
+        dots: true
+      });
+    });
+  </script>
 
 **Stack :** `JavaScript` `NodeJS` `Sequelize` `JWT` `Express` `MySQL` `Axios`
 

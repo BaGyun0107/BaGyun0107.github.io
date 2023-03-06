@@ -1,12 +1,12 @@
 <!-- <script>
-  document.querySelector('hy-push-state').setAttribute('prefetch', '');
+  document.querySelector("hy-push-state").setAttribute("prefetch", "");
 
-  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) { 
-    el.addEventListener('click', function (e) {
+  document.querySelectorAll('.sidebar a[href^="/"]').forEach(function (el) {
+    el.addEventListener("click", function (e) {
       if (el.pathname === window.location.pathname) {
         e.preventDefault();
         e.stopPropagation();
-        document.querySelector('hy-drawer').close();
+        document.querySelector("hy-drawer").close();
       }
     });
   });
@@ -14,6 +14,7 @@
 <!--
 Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
 -->
+
 <script>
   document
     .getElementById("_pushState")
